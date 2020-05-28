@@ -18,8 +18,20 @@ public class MovementController : MonoBehaviour
     [SerializeField]
     private float maxWalkingSpeed = 20;
 
+    public float MaxWalkingSpeed
+    {
+        get { return maxWalkingSpeed; }
+        private set { maxWalkingSpeed = value; }
+    }
+
     [SerializeField]
     private float maxRunningSpeed = 40;
+
+    public float MaxRunningSpeed
+    {
+        get { return maxRunningSpeed; }
+        private set { maxRunningSpeed = value; }
+    }
 
     private float zeroFloatThreshold = 0.001f;
 
@@ -34,6 +46,9 @@ public class MovementController : MonoBehaviour
     private Rigidbody2D body = null;
 
     private bool onGround = false;
+
+    public Action OnJumpStart;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -89,6 +104,7 @@ public class MovementController : MonoBehaviour
         {
             verticalVelocity = jumpForce;
             jumpEndTimestamp = Time.time + jumpDuration;
+            OnJumpStart?.Invoke();
         }
     }
 
@@ -116,12 +132,11 @@ public class MovementController : MonoBehaviour
         {
             verticalVelocity = 0;
         }
-        movementForce.Set(horizontalVelocity , verticalVelocity);
-        body.AddForce(movementForce * Time.fixedDeltaTime, ForceMode2D.Impulse);
-
         if (Mathf.Abs(horizontalVelocity) < zeroFloatThreshold)
         {
             body.velocity = new Vector2(body.velocity.x / walkSlowdownRate, body.velocity.y);
         }
+        movementForce.Set(horizontalVelocity , verticalVelocity);
+        body.AddForce(movementForce * Time.fixedDeltaTime, ForceMode2D.Impulse);
     }
 }
