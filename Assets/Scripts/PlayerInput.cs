@@ -5,9 +5,17 @@ public class PlayerInput : MonoBehaviour
 {
     private MovementController controller = null;
 
+    [SerializeField]
+    private GameObject shooter = null;
+
+    private ShooterMovement shooterMovement = null;
+    private Shooter shooterSpawner = null;
+
     private void Start()
     {
         controller = GetComponent<MovementController>();
+        shooterMovement = shooter.GetComponent<ShooterMovement>();
+        shooterSpawner = shooter.GetComponent<Shooter>();
     }
     void Update()
     {
@@ -28,6 +36,15 @@ public class PlayerInput : MonoBehaviour
         if (Input.GetKeyUp(Controls.jumpKey))
         {
             controller.TerminateJump();
+        }
+
+        shooterMovement.PointAt(Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
+                                                                           Input.mousePosition.y,
+                                                                           Camera.main.nearClipPlane)));
+
+        if (Input.GetMouseButtonDown(Controls.shootButton))
+        {
+            shooterSpawner.Shoot();
         }
     }
 }
