@@ -5,6 +5,10 @@ public class PlayerAnimatorPropertyHandler : MonoBehaviour
     private Animator animator = null;
     private Rigidbody2D body = null;
     private MovementController controller = null;
+
+    [SerializeField]
+    private float fallingThreshold = 0.1f;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -19,7 +23,7 @@ public class PlayerAnimatorPropertyHandler : MonoBehaviour
     void Update()
     {
         animator.SetFloat("NormalizedSpeed", Mathf.Abs(body.velocity.x) / controller.MaxRunningSpeed);
-        animator.SetBool("IsFalling", body.velocity.y < 0);
+        animator.SetBool("IsFalling", body.velocity.y < fallingThreshold);
     }
 
     void TriggerJumpAnimation()

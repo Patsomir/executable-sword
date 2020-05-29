@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5159521997093855374}
   - component: {fileID: 4851176558273376701}
   - component: {fileID: 8420094065382994525}
+  - component: {fileID: 3806801439982099070}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -139,3 +140,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchForce: 35
   lifetime: 3
+--- !u!70 &3806801439982099070
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424673024726023028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.92, y: 2.5}
+  m_Direction: 0
