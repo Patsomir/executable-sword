@@ -60,16 +60,16 @@ public class MovementController : MonoBehaviour
         CalculateMovementForces();
     }
 
-    private void OnTriggerStay2D(Collider2D collider)
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collider.CompareTag("Ground"))
+        if (collision.collider.CompareTag("Ground"))
         {
             onGround = true;
         }
     }
-    private void OnTriggerExit2D(Collider2D collider)
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collider.CompareTag("Ground"))
+        if (collision.collider.CompareTag("Ground"))
         {
             onGround = false;
         }

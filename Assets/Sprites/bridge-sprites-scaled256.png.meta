@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 320f43bbac007284b9b613d46f86f64b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6184835481867883944
+    second: bridge-sprites-scaled256_0
+  - first:
+      213: -5549075232416680128
+    second: bridge-sprites-scaled256_1
+  - first:
+      213: -6461828078776598783
+    second: bridge-sprites-scaled256_2
+  - first:
+      213: -3665560492112678989
+    second: bridge-sprites-scaled256_3
+  - first:
+      213: 2805575414740685568
+    second: bridge-sprites-scaled256_4
+  - first:
+      213: -9155602899205642469
+    second: bridge-sprites-scaled256_5
+  - first:
+      213: -7220121969388383120
+    second: bridge-sprites-scaled256_6
+  - first:
+      213: -4569424404641844928
+    second: bridge-sprites-scaled256_7
+  - first:
+      213: 2947908410383828369
+    second: bridge-sprites-scaled256_8
+  - first:
+      213: 8116437966519862059
+    second: bridge-sprites-scaled256_9
+  - first:
+      213: -5423417838078343225
+    second: bridge-sprites-scaled256_10
+  - first:
+      213: -4280886873863746348
+    second: bridge-sprites-scaled256_11
+  - first:
+      213: 2120224674011898198
+    second: bridge-sprites-scaled256_12
+  - first:
+      213: -5935139720381265216
+    second: bridge-sprites-scaled256_13
+  - first:
+      213: -932341214126034044
+    second: bridge-sprites-scaled256_14
+  - first:
+      213: 1316397602030709888
+    second: bridge-sprites-scaled256_15
+  - first:
+      213: 6605011377003983767
+    second: bridge-sprites-scaled256_16
+  - first:
+      213: -6997372158022606887
+    second: bridge-sprites-scaled256_17
+  - first:
+      213: 8381820033634359057
+    second: bridge-sprites-scaled256_18
+  - first:
+      213: -1646308773239859851
+    second: bridge-sprites-scaled256_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 274
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a597f22a13f4d550800000000000000
+      internalID: 6184835481867883944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_1
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 276
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047b2e3f979bdf2b0800000000000000
+      internalID: -5549075232416680128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_2
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 272
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f30ec3999f256a0800000000000000
+      internalID: -6461828078776598783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_3
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 272
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfeae44720512dc0800000000000000
+      internalID: -3665560492112678989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_4
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 272
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0031032a9f76fe620800000000000000
+      internalID: 2805575414740685568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_5
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 269
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17af40fba3c0f080800000000000000
+      internalID: -9155602899205642469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_6
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 532
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0749c9b9259fccb90800000000000000
+      internalID: -7220121969388383120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_7
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 528
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041725db6b42690c0800000000000000
+      internalID: -4569424404641844928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_8
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 528
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195805f941319e820800000000000000
+      internalID: 2947908410383828369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_9
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 528
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2309ebe35163a070800000000000000
+      internalID: 8116437966519862059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_10
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 525
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7c2d4f5362cb4b0800000000000000
+      internalID: -5423417838078343225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_11
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 525
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc08bfb11c3794c0800000000000000
+      internalID: -4280886873863746348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_12
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 269
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6516f7a8b1d8c6d10800000000000000
+      internalID: 2120224674011898198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_14
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 530
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483bf820b98af03f0800000000000000
+      internalID: -932341214126034044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 530
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c673cf4a8c44210800000000000000
+      internalID: 1316397602030709888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 274
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7937cbf3ad6b9ab50800000000000000
+      internalID: 6605011377003983767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_18
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 267
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117570c69e4325470800000000000000
+      internalID: 8381820033634359057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge-sprites-scaled256_19
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 527
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575dd6ca4e22729e0800000000000000
+      internalID: -1646308773239859851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
