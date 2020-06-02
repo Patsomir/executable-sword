@@ -45,7 +45,11 @@ public class MovementController : MonoBehaviour
     private Vector2 movementForce;
     private Rigidbody2D body = null;
 
-    private bool onGround = false;
+    public bool GroundDetected
+    {
+        get;
+        private set;
+    }
 
     public Action OnJumpStart;
 
@@ -60,24 +64,24 @@ public class MovementController : MonoBehaviour
         CalculateMovementForces();
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collider)
     {
-        if (collision.collider.CompareTag("Ground"))
+        if (collider.CompareTag("Ground"))
         {
-            onGround = true;
+            GroundDetected = true;
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collision.collider.CompareTag("Ground"))
+        if (collider.CompareTag("Ground"))
         {
-            onGround = false;
+            GroundDetected = false;
         }
     }
 
     public bool CanJump()
     {
-        return onGround;
+        return GroundDetected;
     }
 
     public bool CanMove(float direction)

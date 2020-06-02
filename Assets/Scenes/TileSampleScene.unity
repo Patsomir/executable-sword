@@ -239,6 +239,16 @@ PrefabInstance:
       propertyPath: center
       value: 
       objectReference: {fileID: 325587643}
+    - target: {fileID: 8420727454554063031, guid: 7b8c9172079f83247adb4e593a0e172e,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -611760135
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420727454554063031, guid: 7b8c9172079f83247adb4e593a0e172e,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b8c9172079f83247adb4e593a0e172e, type: 3}
 --- !u!4 &325587643 stripped
