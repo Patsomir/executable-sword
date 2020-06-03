@@ -7,7 +7,7 @@ public class ShooterMovement : MonoBehaviour
     private float radius = 5;
 
     [SerializeField]
-    private Vector3 offset;
+    private Vector3 offset = new Vector3(1, 0, 0);
 
     [SerializeField]
     private Transform center = null;

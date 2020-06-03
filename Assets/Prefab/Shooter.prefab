@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8420727454554063024}
   - component: {fileID: 8420727454554063031}
-  - component: {fileID: 8420727454554063030}
   - component: {fileID: 8420727454554063029}
-  - component: {fileID: 8420727454554063028}
   - component: {fileID: 8420727454554063019}
+  - component: {fileID: 8420727454554063030}
+  - component: {fileID: 8420727454554063028}
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
@@ -86,21 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8420727454554063030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420727454554063025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e08a9f4fa8a1b874dbcfb97144eff6cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 2.1
-  offset: {x: 0, y: 2.15, z: 0}
-  center: {fileID: 0}
 --- !u!95 &8420727454554063029
 Animator:
   serializedVersion: 3
@@ -120,6 +105,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8420727454554063019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420727454554063025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c9038bbf8fc8a428cb613b4d2f18ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8420727454554063030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8420727454554063025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08a9f4fa8a1b874dbcfb97144eff6cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 2.1
+  offset: {x: 0, y: 2.15, z: 0}
+  center: {fileID: 0}
 --- !u!114 &8420727454554063028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,16 +145,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swords:
-  - {fileID: 3424673024726023028, guid: b49f1a6228bcac547bb19dc4da5a8af7, type: 3}
---- !u!114 &8420727454554063019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420727454554063025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47c9038bbf8fc8a428cb613b4d2f18ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  - bullet: {fileID: 3424673024726023028, guid: b49f1a6228bcac547bb19dc4da5a8af7,
+      type: 3}
+    capacity: 2
+    reloadTime: 1
+  - bullet: {fileID: 3424673024726023028, guid: b49f1a6228bcac547bb19dc4da5a8af7,
+      type: 3}
+    capacity: 10
+    reloadTime: 2

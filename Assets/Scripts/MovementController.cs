@@ -36,7 +36,6 @@ public class MovementController : MonoBehaviour
     private float zeroFloatThreshold = 0.001f;
 
     private float currentMaxSpeed;
-    private float currentJumpMultiplier = 0;
     private float horizontalVelocity = 0;
     private float verticalVelocity = 0;
 

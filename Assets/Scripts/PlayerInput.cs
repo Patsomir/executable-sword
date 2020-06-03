@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using static Controls;
 
 public class PlayerInput : MonoBehaviour
 {
@@ -42,9 +41,17 @@ public class PlayerInput : MonoBehaviour
                                                                            Input.mousePosition.y,
                                                                            Camera.main.nearClipPlane)));
 
+        if (Input.GetKeyDown(Controls.nextSwordKey))
+        {
+            shooterSpawner.ScheduleNextSword();
+        }
+        if (Input.GetKeyDown(Controls.previousSwordKey))
+        {
+            shooterSpawner.SchedulePreviousSword();
+        }
         if (Input.GetMouseButtonDown(Controls.shootButton))
         {
-            shooterSpawner.Shoot();
+            shooterSpawner.ScheduleShoot();
         }
     }
 }
