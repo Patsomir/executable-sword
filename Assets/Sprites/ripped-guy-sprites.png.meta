@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: f90ed1010250c9e419ae3e6fd1e53f80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6874995330882691418
+    second: ripped-guy-sprites_0
+  - first:
+      213: -6157444652963653603
+    second: ripped-guy-sprites_1
+  - first:
+      213: 3159463707084494993
+    second: ripped-guy-sprites_2
+  - first:
+      213: 8440239145298146233
+    second: ripped-guy-sprites_3
+  - first:
+      213: -3534096307082532138
+    second: ripped-guy-sprites_4
+  - first:
+      213: 6518018727458619852
+    second: ripped-guy-sprites_5
+  - first:
+      213: 7153964082065733414
+    second: ripped-guy-sprites_6
+  - first:
+      213: -6144471700613137555
+    second: ripped-guy-sprites_7
+  - first:
+      213: -1327435128807277255
+    second: ripped-guy-sprites_8
+  - first:
+      213: 3676668256304913974
+    second: ripped-guy-sprites_9
+  - first:
+      213: -8465028302480319481
+    second: ripped-guy-sprites_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ripped-guy-sprites_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1295
+        width: 555
+        height: 722
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a516bb104d3e86f50800000000000000
+      internalID: 6874995330882691418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_1
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1126
+        width: 659
+        height: 891
+      alignment: 9
+      pivot: {x: 0.46, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1819ff26bc5c8aa0800000000000000
+      internalID: -6157444652963653603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1121
+        width: 562
+        height: 889
+      alignment: 9
+      pivot: {x: 0.54, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1989285808ba8db20800000000000000
+      internalID: 3159463707084494993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_3
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1123
+        width: 525
+        height: 895
+      alignment: 9
+      pivot: {x: 0.565, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3b7dac8c0c12570800000000000000
+      internalID: 8440239145298146233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_4
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 1126
+        width: 572
+        height: 903
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da6356122e54fec0800000000000000
+      internalID: -3534096307082532138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_5
+      rect:
+        serializedVersion: 2
+        x: 3894
+        y: 1138
+        width: 598
+        height: 888
+      alignment: 9
+      pivot: {x: 0.51, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1c389af77a47a50800000000000000
+      internalID: 6518018727458619852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_6
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 69
+        width: 687
+        height: 901
+      alignment: 9
+      pivot: {x: 0.43, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6277e67ed6cf74360800000000000000
+      internalID: 7153964082065733414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_7
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 76
+        width: 692
+        height: 888
+      alignment: 9
+      pivot: {x: 0.42, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b73880b837abaa0800000000000000
+      internalID: -6144471700613137555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_8
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 65
+        width: 575
+        height: 893
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d311d88c0049de0800000000000000
+      internalID: -1327435128807277255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_9
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 74
+        width: 529
+        height: 903
+      alignment: 9
+      pivot: {x: 0.59, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e520e9c46260330800000000000000
+      internalID: 3676668256304913974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ripped-guy-sprites_10
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 99
+        width: 523
+        height: 884
+      alignment: 9
+      pivot: {x: 0.58, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c5809cb9d268a80800000000000000
+      internalID: -8465028302480319481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
