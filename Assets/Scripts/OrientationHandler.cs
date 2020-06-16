@@ -1,22 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class OrientationHandler : MonoBehaviour
 {
-    float lastHorizontalPosition;
-    void Start()
+    public void Flip()
     {
-        lastHorizontalPosition = transform.position.x;
+        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
-    void Update()
+    public void SetOrientation(float direction)
     {
-        float delta = transform.position.x - lastHorizontalPosition;
-        if(delta != 0)
+        if (direction != 0)
         {
-            transform.localScale = new Vector3(Mathf.Sign(delta), 1, 1);
+            transform.localScale = new Vector3(Mathf.Sign(direction), transform.localScale.y, transform.localScale.z);
         }
-        lastHorizontalPosition = transform.position.x;
     }
 }

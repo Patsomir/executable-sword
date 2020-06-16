@@ -3,6 +3,7 @@
 public class PlayerInput : MonoBehaviour
 {
     private MovementController controller = null;
+    private OrientationHandler orientation = null;
 
     [SerializeField]
     private GameObject shooter = null;
@@ -15,6 +16,7 @@ public class PlayerInput : MonoBehaviour
         controller = GetComponent<MovementController>();
         shooterMovement = shooter.GetComponent<ShooterMovement>();
         shooterSpawner = shooter.GetComponent<Shooter>();
+        orientation = GetComponent<OrientationHandler>();
     }
     void Update()
     {
@@ -26,7 +28,9 @@ public class PlayerInput : MonoBehaviour
             controller.StopRunning();
         }
 
-        controller.Move(Input.GetAxisRaw(Controls.horizontalAxis));
+        float movementInput = Input.GetAxisRaw(Controls.horizontalAxis);
+        orientation.SetOrientation(movementInput);
+        controller.Move(movementInput);
 
         if (Input.GetKeyDown(Controls.jumpKey))
         {
