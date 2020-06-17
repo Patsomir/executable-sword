@@ -11,7 +11,6 @@ public class EdgeDetector : MonoBehaviour
     {
         if (collision.CompareTag("Ground"))
         {
-            Debug.Log("EDGE");
             orientation.Flip();
         }
     }

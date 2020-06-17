@@ -12,11 +12,13 @@ GameObject:
   - component: {fileID: 4771562180185366060}
   - component: {fileID: 5159521997093855374}
   - component: {fileID: 4851176558273376701}
-  - component: {fileID: 8420094065382994525}
   - component: {fileID: 3806801439982099070}
+  - component: {fileID: 8420094065382994525}
+  - component: {fileID: 4873325643427799899}
+  - component: {fileID: 320788913984827585}
   m_Layer: 0
   m_Name: Sword
-  m_TagString: Untagged
+  m_TagString: DamageSource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,22 +126,8 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &8420094065382994525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3424673024726023028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5977ea72fe2295c4e9045724c56c3ce6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  launchForce: 35
-  lifetime: 3
 --- !u!70 &3806801439982099070
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -156,3 +144,49 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.92, y: 2.5}
   m_Direction: 0
+--- !u!114 &8420094065382994525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424673024726023028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5977ea72fe2295c4e9045724c56c3ce6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchForce: 35
+  lifetime: 3
+--- !u!114 &4873325643427799899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424673024726023028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6aaafd4a390a647bcc3b83ea39cc30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  penetration: 50
+  cut: 20
+  blunt: 0
+  fire: 0
+  ice: 0
+  lightning: 0
+--- !u!114 &320788913984827585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3424673024726023028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d75d94cdefecd0348b198f0170a0f46d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceImpulse: 25
+  pierceDepth: 1

@@ -11,7 +11,6 @@ public class WallDetector : MonoBehaviour
     {
         if (collision.CompareTag("Ground"))
         {
-            Debug.Log("WALL");
             orientation.Flip();
         }
     }
