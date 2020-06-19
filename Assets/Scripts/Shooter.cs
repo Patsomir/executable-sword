@@ -4,7 +4,7 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
     [SerializeField]
-    WeaponInfo[] swords = null;
+    private WeaponInfo[] swords = null;
 
     public Action OnShoot;
 
@@ -116,6 +116,16 @@ public class Shooter : MonoBehaviour
     public void ScheduleShoot()
     {
         shootScheduled = true;
+    }
+
+    public float GetCurrentWeaponReloadTime()
+    {
+        return swords[CurrentSword].ReloadTime;
+    }
+
+    public GameObject GetCurrentWeaponBullet()
+    {
+        return swords[CurrentSword].Bullet;
     }
 
     [System.Serializable]

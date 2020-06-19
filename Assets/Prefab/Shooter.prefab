@@ -151,5 +151,5 @@ MonoBehaviour:
     reloadTime: 1
   - bullet: {fileID: 3424673024726023028, guid: b49f1a6228bcac547bb19dc4da5a8af7,
       type: 3}
-    capacity: 10
-    reloadTime: 2
+    capacity: 1
+    reloadTime: 0.1
