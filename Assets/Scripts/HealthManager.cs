@@ -1,17 +1,24 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class HealthManager : MonoBehaviour
 {
     [SerializeField]
     private int maxHealth = 100;
-    
-    public int Health { get; private set;}
+
+    public int MaxHealth
+    {
+        get { return maxHealth; }
+        private set { maxHealth = value; }
+    }
+
+    public int Health { get; private set; }
 
     public Action<int> OnTakeDamage;
     public Action OnDeath;
 
-    void Start()
+    void Awake()
     {
         Health = maxHealth;
     }

@@ -1,0 +1,2333 @@
+fileFormatVersion: 2
+guid: 8cf9def7edfec7841b9dfdec17bd72c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3843853987773414100
+    second: glyphs-A
+  - first:
+      213: 5686648953271386922
+    second: glyphs-a
+  - first:
+      213: -981449944580973153
+    second: glyphs-B
+  - first:
+      213: -469989837740151411
+    second: glyphs-b
+  - first:
+      213: -9035383861646347067
+    second: glyphs-C
+  - first:
+      213: -4872456482005742699
+    second: glyphs-c
+  - first:
+      213: -473669439811700737
+    second: glyphs-D
+  - first:
+      213: 5694902625785013092
+    second: glyphs-d
+  - first:
+      213: -8937970413001393438
+    second: glyphs-E
+  - first:
+      213: 3937207176403227033
+    second: glyphs-e
+  - first:
+      213: -8842719270759784071
+    second: glyphs-F
+  - first:
+      213: -6791869872379436674
+    second: glyphs-f
+  - first:
+      213: -6759790524661297543
+    second: glyphs-G
+  - first:
+      213: 3974003622504997266
+    second: glyphs-g
+  - first:
+      213: 4589728976383592493
+    second: glyphs-H
+  - first:
+      213: -5665694268373507310
+    second: glyphs-h
+  - first:
+      213: 3171121408340772451
+    second: glyphs-I
+  - first:
+      213: -5087521699657738811
+    second: glyphs-sprites_17
+  - first:
+      213: -939125565037082114
+    second: glyphs-i
+  - first:
+      213: -3010573368899729823
+    second: glyphs-J
+  - first:
+      213: 3844962206815786455
+    second: glyphs-sprites_20
+  - first:
+      213: 4667408735560006075
+    second: glyphs-K
+  - first:
+      213: 1519146115367022605
+    second: glyphs-k
+  - first:
+      213: -8273355449822063931
+    second: glyphs-L
+  - first:
+      213: -8768634958814085180
+    second: glyphs-l
+  - first:
+      213: 8822769984050393155
+    second: glyphs-M
+  - first:
+      213: 5473972636179533263
+    second: glyphs-m
+  - first:
+      213: -7970985108642341463
+    second: glyphs-N
+  - first:
+      213: 4386297539347422429
+    second: glyphs-n
+  - first:
+      213: -4747317536075031520
+    second: glyphs-O
+  - first:
+      213: 7894427516289413571
+    second: glyphs-o
+  - first:
+      213: -2952007551409573217
+    second: glyphs-P
+  - first:
+      213: -6875104784627860166
+    second: glyphs-p
+  - first:
+      213: -6595153999699211422
+    second: glyphs-Q
+  - first:
+      213: 1844672112283946152
+    second: glyphs-q
+  - first:
+      213: -5986886752552679147
+    second: glyphs-R
+  - first:
+      213: 7096179949217849413
+    second: glyphs-r
+  - first:
+      213: -5317628068868433811
+    second: glyphs-j
+  - first:
+      213: -1538301535585310499
+    second: glyphs-S
+  - first:
+      213: 1001574896406869881
+    second: glyphs-s
+  - first:
+      213: -1459880546017510548
+    second: glyphs-T
+  - first:
+      213: -5430671316072053986
+    second: glyphs-t
+  - first:
+      213: 5466516404785525238
+    second: glyphs-U
+  - first:
+      213: -5785744387614402952
+    second: glyphs-u
+  - first:
+      213: 8468334892679464075
+    second: glyphs-V
+  - first:
+      213: -6428805430563679527
+    second: glyphs-v
+  - first:
+      213: -466032067118894260
+    second: glyphs-W
+  - first:
+      213: 9208305399321702903
+    second: glyphs-w
+  - first:
+      213: 456373421120484397
+    second: glyphs-sprites_48
+  - first:
+      213: -2770360780009614307
+    second: glyphs-x
+  - first:
+      213: -2050868733101854974
+    second: glyphs-Y
+  - first:
+      213: 2644615325583850624
+    second: glyphs-y
+  - first:
+      213: 209657601818390234
+    second: glyphs-Z
+  - first:
+      213: 4949359335051022572
+    second: glyphs-z
+  - first:
+      213: 4444619337034422650
+    second: glyphs-0
+  - first:
+      213: -7424269546178742105
+    second: glyphs-1
+  - first:
+      213: 924866889433734609
+    second: glyphs-2
+  - first:
+      213: 4241139001939230851
+    second: glyphs-3
+  - first:
+      213: -144566826672052385
+    second: glyphs-4
+  - first:
+      213: 972670115587071330
+    second: glyphs-5
+  - first:
+      213: -48795893898240490
+    second: glyphs-6
+  - first:
+      213: -7232995256906583410
+    second: glyphs-7
+  - first:
+      213: 1847958575254492700
+    second: glyphs-8
+  - first:
+      213: 2849533654364353527
+    second: glyphs-9
+  - first:
+      213: 3647532410490713812
+    second: glyphs-plus
+  - first:
+      213: 2667263119387152364
+    second: glyphs-minus
+  - first:
+      213: 249419783064396330
+    second: glyphs-mult
+  - first:
+      213: -8646732020405378519
+    second: glyphs-div
+  - first:
+      213: -8737377927226159891
+    second: glyphs-percent
+  - first:
+      213: -2115139018205407248
+    second: glyphs-sprites_69
+  - first:
+      213: -7227667809313148569
+    second: glyphs-hashtag
+  - first:
+      213: 1798052895285329275
+    second: glyphs-exclamation
+  - first:
+      213: 1232757548246790512
+    second: glyphs-question
+  - first:
+      213: -6858972329030194825
+    second: glyphs-slash
+  - first:
+      213: -453723073634285947
+    second: glyphs-sprites_74
+  - first:
+      213: 1250000411582281677
+    second: glyphs-sprites_75
+  - first:
+      213: 9116105890305835822
+    second: glyphs-singlequote
+  - first:
+      213: 2816915225238002963
+    second: glyphs-doublequote
+  - first:
+      213: 3097186112966620920
+    second: glyphs-ampersant
+  - first:
+      213: -4807384493394781360
+    second: glyphs-lessthan
+  - first:
+      213: -7725519587501407875
+    second: glyphs-sprites_80
+  - first:
+      213: 5867169594187377358
+    second: glyphs-greaterthan
+  - first:
+      213: -6452762782039830527
+    second: glyphs-roundleft
+  - first:
+      213: -2487218216642274036
+    second: glyphs-roundright
+  - first:
+      213: 5128365587823673633
+    second: glyphs-squareleft
+  - first:
+      213: -5352194319576241093
+    second: glyphs-squareright
+  - first:
+      213: 7993927291961142244
+    second: glyphs-curlyleft
+  - first:
+      213: 5354723262637642416
+    second: glyphs-curlyright
+  - first:
+      213: -2015279396805502532
+    second: glyphs-power
+  - first:
+      213: -1525262207899791487
+    second: glyphs-dollar
+  - first:
+      213: 7637192370598795999
+    second: glyphs-equals
+  - first:
+      213: 7562332959440111363
+    second: glyphs-wave
+  - first:
+      213: 3531743162048680229
+    second: glyphs-sprites_92
+  - first:
+      213: -3909162292140443933
+    second: glyphs-sprites_93
+  - first:
+      213: -2927084416502050671
+    second: glyphs-dot
+  - first:
+      213: -5837596192860339988
+    second: glyphs-dotdot
+  - first:
+      213: 8374105018823828729
+    second: glyphs-dotcomma
+  - first:
+      213: 8696510218609447292
+    second: glyphs-comma
+  - first:
+      213: -3159615344436696409
+    second: glyphs-underscore
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glyphs-A
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1033
+        width: 108
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c250c4ae923e7aac0800000000000000
+      internalID: -3843853987773414100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-a
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1033
+        width: 83
+        height: 90
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23861608190bee40800000000000000
+      internalID: 5686648953271386922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-B
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1031
+        width: 88
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d9c60b9703162f0800000000000000
+      internalID: -981449944580973153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-b
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1033
+        width: 84
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d64719bb24a79f0800000000000000
+      internalID: -469989837740151411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-C
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1034
+        width: 100
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4b545df3edb9280800000000000000
+      internalID: -9035383861646347067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-c
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1033
+        width: 66
+        height: 80
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b8f7e15ae816cb0800000000000000
+      internalID: -4872456482005742699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-D
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1033
+        width: 104
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7b01377203d69f0800000000000000
+      internalID: -473669439811700737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-d
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1033
+        width: 85
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463ea58e3cb580f40800000000000000
+      internalID: 5694902625785013092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-E
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1033
+        width: 86
+        height: 130
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eab918c343f5f380800000000000000
+      internalID: -8937970413001393438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-e
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1031
+        width: 83
+        height: 87
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99112a41115c3a630800000000000000
+      internalID: 3937207176403227033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-F
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1033
+        width: 89
+        height: 132
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971acd98ca9584580800000000000000
+      internalID: -8842719270759784071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-f
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1034
+        width: 77
+        height: 112
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e716520065e6eb1a0800000000000000
+      internalID: -6791869872379436674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-G
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1035
+        width: 107
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e038d25566032a0800000000000000
+      internalID: -6759790524661297543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-g
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 973
+        width: 79
+        height: 144
+      alignment: 9
+      pivot: {x: 0, y: 0.425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291a68f4d3f762730800000000000000
+      internalID: 3974003622504997266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-H
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1034
+        width: 108
+        height: 131
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2849a4cf2ef1bf30800000000000000
+      internalID: 4589728976383592493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-h
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1038
+        width: 89
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21361afb4196f51b0800000000000000
+      internalID: -5665694268373507310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-I
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 1034
+        width: 88
+        height: 136
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366c9cb9e16120c20800000000000000
+      internalID: 3171121408340772451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-i
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1037
+        width: 34
+        height: 99
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef90a78364e87f2f0800000000000000
+      internalID: -939125565037082114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-J
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 795
+        width: 89
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1660b70c87b4836d0800000000000000
+      internalID: -3010573368899729823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-K
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 795
+        width: 109
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9fb981487f5c040800000000000000
+      internalID: 4667408735560006075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-k
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 796
+        width: 83
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00bd58d757151510800000000000000
+      internalID: 1519146115367022605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-L
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 795
+        width: 89
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c250d07d032f2d80800000000000000
+      internalID: -8273355449822063931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-l
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 799
+        width: 33
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf70d296fc8f4680800000000000000
+      internalID: -8768634958814085180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-M
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 795
+        width: 136
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3407d423e86c07a70800000000000000
+      internalID: 8822769984050393155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-m
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 797
+        width: 101
+        height: 75
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd80b93c1577fb40800000000000000
+      internalID: 5473972636179533263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-N
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 799
+        width: 106
+        height: 123
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9add179964f516190800000000000000
+      internalID: -7970985108642341463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-n
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 799
+        width: 75
+        height: 71
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc19f75f524fdc30800000000000000
+      internalID: 4386297539347422429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-O
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 799
+        width: 114
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cd3427ad32e1eb0800000000000000
+      internalID: -4747317536075031520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-o
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 799
+        width: 77
+        height: 79
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1ff75eff3ae8d60800000000000000
+      internalID: 7894427516289413571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-P
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 800
+        width: 81
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9236fbb5cc5807d0800000000000000
+      internalID: -2952007551409573217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-p
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 744
+        width: 71
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dfaaecf98b690a0800000000000000
+      internalID: -6875104784627860166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-Q
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 799
+        width: 119
+        height: 123
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b8ee0416e4974a0800000000000000
+      internalID: -6595153999699211422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-q
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 747
+        width: 79
+        height: 134
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac01cb3387999910800000000000000
+      internalID: 1844672112283946152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-R
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 802
+        width: 91
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5190b9be73e4aeca0800000000000000
+      internalID: -5986886752552679147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-r
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 803
+        width: 65
+        height: 80
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540216f0112ba7260800000000000000
+      internalID: 7096179949217849413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-j
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 753
+        width: 47
+        height: 132
+      alignment: 9
+      pivot: {x: 0, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d685373027df336b0800000000000000
+      internalID: -5317628068868433811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-S
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 555
+        width: 87
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8eff557ead6aae0800000000000000
+      internalID: -1538301535585310499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-s
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 557
+        width: 55
+        height: 82
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b74ccf0f46ed00800000000000000
+      internalID: 1001574896406869881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-T
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 556
+        width: 112
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b7f10d0667dbbe0800000000000000
+      internalID: -1459880546017510548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-t
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 555
+        width: 84
+        height: 112
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e134f91063162a4b0800000000000000
+      internalID: -5430671316072053986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-U
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 556
+        width: 103
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1361215b7fcdb40800000000000000
+      internalID: 5466516404785525238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-u
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 555
+        width: 76
+        height: 78
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87698073228e4bfa0800000000000000
+      internalID: -5785744387614402952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-V
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 560
+        width: 118
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84843db7b1958570800000000000000
+      internalID: 8468334892679464075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-v
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 560
+        width: 72
+        height: 71
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2562da58b48c6a0800000000000000
+      internalID: -6428805430563679527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-W
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 560
+        width: 178
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43ff69dd425889f0800000000000000
+      internalID: -466032067118894260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-w
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 562
+        width: 117
+        height: 72
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b1e519f87acf70800000000000000
+      internalID: 9208305399321702903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-sprites_48
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 560
+        width: 124
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24f0d2653d555600800000000000000
+      internalID: 456373421120484397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-x
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 561
+        width: 89
+        height: 75
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d145adf6c83bd89d0800000000000000
+      internalID: -2770360780009614307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-Y
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 561
+        width: 126
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f2282d0c9d983e0800000000000000
+      internalID: -2050868733101854974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-y
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 508
+        width: 104
+        height: 120
+      alignment: 9
+      pivot: {x: 0, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cbaf870af83b420800000000000000
+      internalID: 2644615325583850624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-Z
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 561
+        width: 125
+        height: 130
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade68d06a7ad8e200800000000000000
+      internalID: 209657601818390234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-z
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 564
+        width: 77
+        height: 74
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0da77a718afa440800000000000000
+      internalID: 4949359335051022572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 320
+        width: 94
+        height: 123
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79d4c90db57ead30800000000000000
+      internalID: 4444619337034422650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 321
+        width: 70
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8f347ee22b7f890800000000000000
+      internalID: -7424269546178742105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 319
+        width: 84
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddd7392989c5dc00800000000000000
+      internalID: 924866889433734609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 318
+        width: 84
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38084a5a37d8bda30800000000000000
+      internalID: 4241139001939230851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 90
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5728e1bc356efdf0800000000000000
+      internalID: -144566826672052385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-5
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 321
+        width: 78
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9433115e9f7d00800000000000000
+      internalID: 972670115587071330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-6
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 321
+        width: 81
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e92bd9464a25ff0800000000000000
+      internalID: -48795893898240490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-7
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 319
+        width: 101
+        height: 132
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e827ff9c22d3f9b90800000000000000
+      internalID: -7232995256906583410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-8
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 321
+        width: 90
+        height: 131
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c165ea5888445a910800000000000000
+      internalID: 1847958575254492700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-9
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 327
+        width: 84
+        height: 119
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f378ebd2c39b8720800000000000000
+      internalID: 2849533654364353527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-plus
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 327
+        width: 115
+        height: 119
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6f502e663ae9230800000000000000
+      internalID: 3647532410490713812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-minus
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 327
+        width: 84
+        height: 119
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef4291eca5040520800000000000000
+      internalID: 2667263119387152364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-mult
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 327
+        width: 81
+        height: 119
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a222281a8fd167300800000000000000
+      internalID: 249419783064396330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-div
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 330
+        width: 86
+        height: 116
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922edbf2a03a00880800000000000000
+      internalID: -8646732020405378519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-percent
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 326
+        width: 121
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec885b51199eb680800000000000000
+      internalID: -8737377927226159891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-sprites_69
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 328
+        width: 59
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f75c49f44485a2e0800000000000000
+      internalID: -2115139018205407248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-hashtag
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 327
+        width: 166
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7613d57db6a22bb90800000000000000
+      internalID: -7227667809313148569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-exclamation
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 81
+        width: 34
+        height: 123
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d38dee497f3f810800000000000000
+      internalID: 1798052895285329275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-question
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 84
+        width: 78
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0717e6d6572ab1110800000000000000
+      internalID: 1232757548246790512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-slash
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 85
+        width: 75
+        height: 121
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ebe3d10900d0a0800000000000000
+      internalID: -6858972329030194825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-singlequote
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 84
+        width: 23
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23868e020ae28e70800000000000000
+      internalID: 9116105890305835822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-doublequote
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 84
+        width: 45
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d53b20971b71720800000000000000
+      internalID: 2816915225238002963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-ampersant
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 84
+        width: 94
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6f5a23c5a6bfa20800000000000000
+      internalID: 3097186112966620920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-lessthan
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 84
+        width: 93
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b9b7c164db84db0800000000000000
+      internalID: -4807384493394781360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-greaterthan
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 84
+        width: 94
+        height: 117
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecae28a09af5c6150800000000000000
+      internalID: 5867169594187377358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-roundleft
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 91
+        width: 54
+        height: 121
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10097ac107e2376a0800000000000000
+      internalID: -6452762782039830527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-roundright
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 89
+        width: 49
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d1826b530ab7dd0800000000000000
+      internalID: -2487218216642274036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-squareleft
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 90
+        width: 51
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1214194b45d9b2740800000000000000
+      internalID: 5128365587823673633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-squareright
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 91
+        width: 54
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c6bcc9f9f29b5b0800000000000000
+      internalID: -5352194319576241093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-curlyleft
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 91
+        width: 66
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebe4a5b48220fe60800000000000000
+      internalID: 7993927291961142244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-curlyright
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 87
+        width: 69
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b29904df6ccf4a40800000000000000
+      internalID: 5354723262637642416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-power
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 84
+        width: 83
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb99e36e01a4804e0800000000000000
+      internalID: -2015279396805502532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-dollar
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 76
+        width: 80
+        height: 142
+      alignment: 9
+      pivot: {x: 0, y: 0.058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f0ec46a1e25dae0800000000000000
+      internalID: -1525262207899791487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-equals
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 84
+        width: 96
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda5dda5ff1ccf960800000000000000
+      internalID: 7637192370598795999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-wave
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 84
+        width: 100
+        height: 129
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30708a872cdc2f860800000000000000
+      internalID: 7562332959440111363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-dot
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 86
+        width: 36
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19050d64b38e067d0800000000000000
+      internalID: -2927084416502050671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-dotdot
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 88
+        width: 34
+        height: 97
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce003660131bcfea0800000000000000
+      internalID: -5837596192860339988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-dotcomma
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 70
+        width: 32
+        height: 115
+      alignment: 9
+      pivot: {x: 0, y: 0.155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f46fce852cc63470800000000000000
+      internalID: 8374105018823828729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-comma
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 71
+        width: 33
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7155cdb7f530b870800000000000000
+      internalID: 8696510218609447292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glyphs-underscore
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 90
+        width: 87
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa2af7a59ac624d0800000000000000
+      internalID: -3159615344436696409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
