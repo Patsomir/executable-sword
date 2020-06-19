@@ -7,6 +7,7 @@ public class Shooter : MonoBehaviour
     private WeaponInfo[] swords = null;
 
     public Action OnShoot;
+    public Action OnWeaponChange;
 
     public int CurrentSword { get; private set; } = 0;
 
@@ -64,6 +65,7 @@ public class Shooter : MonoBehaviour
             CurrentSword += 1;
             CurrentSword %= swords.Length;
             ResetReloadTimer();
+            OnWeaponChange?.Invoke();
         }
     }
     void PreviousSword()
@@ -73,6 +75,7 @@ public class Shooter : MonoBehaviour
             CurrentSword += swords.Length - 1;
             CurrentSword %= swords.Length;
             ResetReloadTimer();
+            OnWeaponChange?.Invoke();
         }
     }
 
@@ -126,6 +129,16 @@ public class Shooter : MonoBehaviour
     public GameObject GetCurrentWeaponBullet()
     {
         return swords[CurrentSword].Bullet;
+    }
+
+    public int GetCurrentWeaponAmmo()
+    {
+        return swords[CurrentSword].Ammo;
+    }
+
+    public int GetCurrentWeaponCapacity()
+    {
+        return swords[CurrentSword].Capacity;
     }
 
     [System.Serializable]
