@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 239154927}
   - component: {fileID: 239154926}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,7 @@ GameObject:
   - component: {fileID: 782038355}
   - component: {fileID: 782038357}
   - component: {fileID: 782038356}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1319,7 +1319,7 @@ GameObject:
   - component: {fileID: 1149812847}
   - component: {fileID: 1149812849}
   - component: {fileID: 1149812848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10636,6 +10636,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5330556353832824092, guid: 28ae97d293a256d4fa0fe00b4e21a42e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7802654528573791170, guid: 28ae97d293a256d4fa0fe00b4e21a42e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10780,7 +10785,7 @@ GameObject:
   - component: {fileID: 1816092394}
   - component: {fileID: 1816092396}
   - component: {fileID: 1816092395}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
