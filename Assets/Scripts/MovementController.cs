@@ -65,17 +65,11 @@ public class MovementController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.CompareTag("Ground"))
-        {
-            GroundDetected = true;
-        }
+        GroundDetected = true;
     }
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.CompareTag("Ground"))
-        {
-            GroundDetected = false;
-        }
+        GroundDetected = false;
     }
 
     public bool CanJump()
