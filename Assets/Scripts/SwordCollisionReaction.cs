@@ -16,7 +16,8 @@ public class SwordCollisionReaction : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("DamageDetector"))
+        if (collision.collider.CompareTag("DamageDetector") &&
+            !collision.transform.CompareTag("Player"))
         {
             if (collision.collider.GetComponent<DamageDetector>().PenetrationRes < pen.Penetration)
             {

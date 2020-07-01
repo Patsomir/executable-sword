@@ -5,9 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - DamageSource
   - Enemy
   - DamageDetector
+  - DamageSource
+  - DamageSourcePlayer
+  - DamageSourceEnemy
   layers:
   - Default
   - TransparentFX

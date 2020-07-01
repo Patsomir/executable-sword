@@ -219,6 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: {fileID: 2260918473104543746}
+  damageSourceTag: DamageSourcePlayer
   penetrationRes: 90
   cutRes: 50
   bluntRes: 20
@@ -263,6 +264,7 @@ Transform:
   - {fileID: 7204183368303145950}
   - {fileID: 7204183368228798166}
   - {fileID: 9073139686422197694}
+  - {fileID: 1719545040234010641}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -455,6 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: {fileID: 0}
+  damageSourceTag: DamageSourcePlayer
   penetrationRes: 0
   cutRes: 0
   bluntRes: 0
@@ -531,3 +534,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e4e68283cde624bb3cb34c8aa8117b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &7873075518518685819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719545040234010641}
+  - component: {fileID: 2060453982604807072}
+  - component: {fileID: 1597509708915197852}
+  m_Layer: 0
+  m_Name: KickHitbox
+  m_TagString: DamageSourceEnemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1719545040234010641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873075518518685819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.75, y: 3.87, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7204183368279000192}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2060453982604807072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873075518518685819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6aaafd4a390a647bcc3b83ea39cc30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  penetration: 0
+  cut: 0
+  blunt: 30
+  fire: 0
+  ice: 0
+  lightning: 0
+--- !u!61 &1597509708915197852
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873075518518685819}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.9889631, y: -0.8603964}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.3219128, y: 3.9253445}
+  m_EdgeRadius: 0

@@ -6,6 +6,9 @@ public class DamageDetector : MonoBehaviour
     private HealthManager health = null;
 
     [SerializeField]
+    private string damageSourceTag = "DamageSourcePlayer";
+
+    [SerializeField]
     [Range(0, 100)]
     private int penetrationRes = 0;
 
@@ -70,10 +73,10 @@ public class DamageDetector : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("DamageSource"))
+        if (collision.collider.CompareTag(damageSourceTag))
         {
-            collision.transform.tag = "Untagged";
-            health.takeDamage(CalculateDamage(collision.transform.GetComponent<DamageSource>()));
+            //collision.transform.tag = "Untagged";
+            health.takeDamage(CalculateDamage(collision.collider.GetComponent<DamageSource>()));
         }
     }
 
