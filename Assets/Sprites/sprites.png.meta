@@ -44,6 +44,9 @@ TextureImporter:
   - first:
       213: -7039003182478323700
     second: walk_8
+  - first:
+      213: -8016180380217801881
+    second: sit_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -418,6 +421,27 @@ TextureImporter:
       bones: []
       spriteID: c00198756ef605e90800000000000000
       internalID: -7039003182478323700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sit_1
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1524
+        width: 244
+        height: 381
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76389ad6a6ec0c090800000000000000
+      internalID: -8016180380217801881
       vertices: []
       indices: 
       edges: []
