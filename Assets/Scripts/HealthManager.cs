@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 public class HealthManager : MonoBehaviour
 {
@@ -18,6 +17,8 @@ public class HealthManager : MonoBehaviour
     public Action<int> OnTakeDamage;
     public Action OnDeath;
 
+    private bool alreadyDied = false;
+
     void Awake()
     {
         Health = maxHealth;
@@ -28,8 +29,9 @@ public class HealthManager : MonoBehaviour
         Health = Math.Max(Health - damage, 0);
         OnTakeDamage?.Invoke(damage);
         //Debug.Log("Damage taken: " + damage);
-        if (IsDead())
+        if (IsDead() && !alreadyDied)
         {
+            alreadyDied = true;
             OnDeath?.Invoke();
             //Debug.Log("Ded");
         }

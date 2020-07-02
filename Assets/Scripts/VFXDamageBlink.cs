@@ -24,8 +24,11 @@ public class VFXDamageBlink : MonoBehaviour
 
     public void Blink(int damage)
     {
-        StopAllCoroutines();
-        StartCoroutine(BlinkCoroutine((float) damage / fullBlinkThreshold));
+        if (!health.IsDead())
+        {
+            StopAllCoroutines();
+            StartCoroutine(BlinkCoroutine((float)damage / fullBlinkThreshold));
+        }
     }
 
     private IEnumerator BlinkCoroutine(float intensity)
