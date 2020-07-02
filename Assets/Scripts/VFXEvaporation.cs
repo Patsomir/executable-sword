@@ -6,6 +6,10 @@ public class VFXEvaporation : MonoBehaviour
     HealthManager health;
     SpriteRenderer sprite;
     ParticleSystem[] particles;
+    Transform root = null;
+
+    [SerializeField]
+    private bool subscribeToDeath = true;
 
     [SerializeField]
     [Range(0, 1)]
@@ -25,7 +29,7 @@ public class VFXEvaporation : MonoBehaviour
 
     void Start()
     {
-        sprite = transform.root.GetComponent<SpriteRenderer>();
+        sprite = root.GetComponent<SpriteRenderer>();
         particles = GetComponentsInChildren<ParticleSystem>();
         foreach(ParticleSystem i in particles)
         {
@@ -39,7 +43,11 @@ public class VFXEvaporation : MonoBehaviour
 
     private void Awake()
     {
-        health = transform.root.GetComponent<HealthManager>();
+        root = transform.root;
+        if (subscribeToDeath)
+        {
+            health = root.GetComponent<HealthManager>();
+        }
     }
 
     public void Evaporate()
@@ -67,8 +75,9 @@ public class VFXEvaporation : MonoBehaviour
             sprite.color = new Color(color, color, color, alpha);
             yield return null;
         }
-        sprite.color = new Color(color, color, color, 0);
-        transform.root.GetComponent<Rigidbody2D>().simulated = false;
+        //sprite.color = new Color(color, color, color, 0);
+        sprite.enabled = false;
+        root.GetComponent<Rigidbody2D>().simulated = false;
 
         particles[0].Stop();
         particles[1].Stop();
@@ -77,17 +86,23 @@ public class VFXEvaporation : MonoBehaviour
 
         yield return new WaitForSeconds(10);
 
-        Destroy(transform.root.gameObject);
+        Destroy(root.gameObject);
     }
 
     private void OnEnable()
     {
-        health.OnDeath += Evaporate;
+        if (subscribeToDeath)
+        {
+            health.OnDeath += Evaporate;
+        }
     }
 
     private void OnDisable()
     {
-        health.OnDeath -= Evaporate;
+        if (subscribeToDeath)
+        {
+            health.OnDeath -= Evaporate;
+        }
     }
 
 }
