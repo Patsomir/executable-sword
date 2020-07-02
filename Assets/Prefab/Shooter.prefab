@@ -145,11 +145,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swords:
-  - bullet: {fileID: 3424673024726023028, guid: b49f1a6228bcac547bb19dc4da5a8af7,
+  - bullet: {fileID: 2498988306952144058, guid: d289508871a802b4397b6859b3733224,
       type: 3}
-    capacity: 2
+    capacity: 5
     reloadTime: 1
-  - bullet: {fileID: 3424673024726023028, guid: b49f1a6228bcac547bb19dc4da5a8af7,
+  - bullet: {fileID: 2358325087940873914, guid: 2cdd9333141837045a7057d432605a04,
       type: 3}
     capacity: 1
     reloadTime: 0.1

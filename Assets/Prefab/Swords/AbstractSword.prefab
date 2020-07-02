@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4873325643427799899}
   - component: {fileID: 320788913984827585}
   m_Layer: 0
-  m_Name: Sword
+  m_Name: AbstractSword
   m_TagString: DamageSourcePlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,8 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -400803011
   m_SortingLayer: 2
   m_SortingOrder: -1
-  m_Sprite: {fileID: 6408714633167404201, guid: c056dcd6631163440a85c8208bc312b1,
-    type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,7 +84,7 @@ SpriteRenderer:
   m_Size: {x: 0.92, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &5159521997093855374
@@ -98,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 3424673024726023028}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 37bce558b3314404c9dd2aea94f9a203, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
