@@ -148,7 +148,7 @@ TextureImporter:
     second: glyphs-w
   - first:
       213: 456373421120484397
-    second: glyphs-sprites_48
+    second: glyphs-X
   - first:
       213: -2770360780009614307
     second: glyphs-x
@@ -408,7 +408,7 @@ TextureImporter:
       name: glyphs-a
       rect:
         serializedVersion: 2
-        x: 193
+        x: 191
         y: 1033
         width: 83
         height: 90
@@ -1350,7 +1350,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glyphs-sprites_48
+      name: glyphs-X
       rect:
         serializedVersion: 2
         x: 1435
@@ -1416,12 +1416,12 @@ TextureImporter:
       name: glyphs-y
       rect:
         serializedVersion: 2
-        x: 1891
+        x: 1894
         y: 508
-        width: 104
+        width: 101
         height: 120
       alignment: 9
-      pivot: {x: 0, y: 0.44}
+      pivot: {x: 0, y: 0.24068603}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

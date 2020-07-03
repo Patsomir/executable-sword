@@ -23,6 +23,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioSource explosion = null;
 
+    [SerializeField]
+    private AudioSource select = null;
 
     private static SoundManager instance = null;
 
@@ -64,5 +66,10 @@ public class SoundManager : MonoBehaviour
     public static void Explode()
     {
         instance.explosion.Play();
+    }
+
+    public static void Select()
+    {
+        instance.select.Play();
     }
 }

@@ -60,7 +60,16 @@ public class UINumberBox : MonoBehaviour
             digitTarget[i].rectTransform.sizeDelta = new Vector2(
                 digitSource[digits[currentToDisplay]].rect.width * unitsPerPixel,
                 digitSource[digits[currentToDisplay]].rect.height * unitsPerPixel);
-            offset += offsetDirection * digitSource[digits[currentToDisplay]].rect.width * unitsPerPixel;
+            if (rightAligned)
+            {
+                if (currentToDisplay < digitCount - 1)
+                {
+                    offset -= digitSource[digits[currentToDisplay + 1]].rect.width * unitsPerPixel;
+                }
+            } else
+            {
+                offset += digitSource[digits[currentToDisplay]].rect.width * unitsPerPixel;
+            }
             digitTarget[i].sprite = digitSource[digits[currentToDisplay]];
             digitTarget[i].enabled = true;
         }
