@@ -14,10 +14,16 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     private float cameraSpeed = 5f;
 
+    [SerializeField]
+    private Vector2 horizontalBounds;
+
+    [SerializeField]
+    private Vector2 verticalBounds;
+
     private Camera cam = null;
     private Vector3 actualPosition;
 
-    void Start()
+    private void Start()
     {
         if(target == null)
         {
@@ -28,7 +34,7 @@ public class CameraFollow : MonoBehaviour
         actualPosition = transform.position;
     }
 
-    void Update()
+    private void Update()
     {
         Vector3 cursorPosition = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
                                                                        Input.mousePosition.y,
@@ -37,6 +43,14 @@ public class CameraFollow : MonoBehaviour
         Vector3 finalOffset = (cursorPosition - target.position) * targetToCursorRate;
         finalOffset.z = -10;
         actualPosition = target.position + finalOffset;
+        ResolveBounds();
+    }
+
+    private void ResolveBounds()
+    {
+        actualPosition.Set(Mathf.Clamp(actualPosition.x, horizontalBounds.x, horizontalBounds.y),
+                           Mathf.Clamp(actualPosition.y, verticalBounds.x, verticalBounds.y),
+                           actualPosition.z);
     }
 
     private void FixedUpdate()
@@ -44,7 +58,7 @@ public class CameraFollow : MonoBehaviour
         MoveCamera();
     }
 
-    void MoveCamera()
+    private void MoveCamera()
     {
         Vector3 movementVector = actualPosition - transform.position;
         float distance = cameraSpeed * Time.fixedDeltaTime;

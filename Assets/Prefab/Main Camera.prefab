@@ -100,3 +100,5 @@ MonoBehaviour:
   distance: 12
   targetToCursorRate: 0.25
   cameraSpeed: 7
+  horizontalBounds: {x: -100, y: 100}
+  verticalBounds: {x: -100, y: 100}
