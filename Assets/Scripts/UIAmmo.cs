@@ -12,15 +12,22 @@ public class UIAmmo : MonoBehaviour
     private Shooter source = null;
 
     private int lastCurrentAmmo = -1;
+    private bool shouldInitializeMaxSwords = true;
 
     void Start()
     {
-        UpdateMaxSwordsUI();
         UpdateCurrentSwordsUI();
+        UpdateMaxSwordsUI();
     }
+
     void Update()
     {
         UpdateCurrentSwordsUI();
+        if (shouldInitializeMaxSwords)
+        {
+            UpdateMaxSwordsUI();
+            shouldInitializeMaxSwords = false;
+        }
     }
 
     private void UpdateCurrentSwordsUI()
