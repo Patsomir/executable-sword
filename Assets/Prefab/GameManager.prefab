@@ -1031,9 +1031,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1094087993009518784}
   - component: {fileID: 8384015721961089172}
+  - component: {fileID: 8007376119260398877}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1066,3 +1067,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundMusic: {fileID: 1094087992788098666}
+  enterTransition: 1
+--- !u!114 &8007376119260398877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094087993009518785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ebc0ee4f746064b8aa2d19923658fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

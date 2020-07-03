@@ -249,6 +249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlsMenu: {fileID: 268968499}
   creditsMenu: {fileID: 741061751}
+  initialScene: TileSampleScene
 --- !u!95 &118662783
 Animator:
   serializedVersion: 3
@@ -1181,7 +1182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 228}
+  m_AnchoredPosition: {x: 0, y: 218}
   m_SizeDelta: {x: 280, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724381541

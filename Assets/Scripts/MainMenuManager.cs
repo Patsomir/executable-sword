@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -10,6 +9,9 @@ public class MainMenuManager : MonoBehaviour
 
     [SerializeField]
     private GameObject creditsMenu = null;
+
+    [SerializeField]
+    private string initialScene = "TileSampleScene";
 
     private GameObject currentMenu = null;
 
@@ -52,7 +54,7 @@ public class MainMenuManager : MonoBehaviour
     {
         OnTransitionStart?.Invoke();
         yield return new WaitForSeconds(delay / 2);
-        SceneManager.LoadScene("TileSampleScene");
+        SceneTransitionManager.LoadScene(initialScene);
     }
 
     private IEnumerator ReturnCoroutine(float delay)

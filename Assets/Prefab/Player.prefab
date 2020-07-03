@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 7802654528573791195}
   - component: {fileID: 7802654528573791194}
   - component: {fileID: 7604443850678822951}
+  - component: {fileID: 7863439510751091478}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -387,6 +388,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+--- !u!114 &7863439510751091478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7802654528573791172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d74659b188dd5488acc6106ea5a19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTime: 8
 --- !u!1 &8157254836983457483
 GameObject:
   m_ObjectHideFlags: 0
