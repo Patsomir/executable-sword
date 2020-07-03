@@ -1,12 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class VFXEvaporation : MonoBehaviour
 {
-    HealthManager health;
-    SpriteRenderer sprite;
-    ParticleSystem[] particles;
-    Transform root = null;
+    private HealthManager health;
+    private SpriteRenderer sprite;
+    private ParticleSystem[] particles;
+    private Transform root = null;
+
+    public Action OnBurst;
 
     [SerializeField]
     private bool subscribeToDeath = true;
@@ -83,6 +86,8 @@ public class VFXEvaporation : MonoBehaviour
         particles[1].Stop();
         particles[2].Emit(burstRate / 2);
         particles[3].Emit(burstRate / 2);
+
+        OnBurst?.Invoke();
 
         yield return new WaitForSeconds(10);
 

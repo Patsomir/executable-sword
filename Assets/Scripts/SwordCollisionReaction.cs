@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class SwordCollisionReaction : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class SwordCollisionReaction : MonoBehaviour
 
     [SerializeField]
     private float pierceDepth = 0.1f;
+
+    public Action OnPierce;
+    public Action OnBounce;
+
     void Start()
     {
         pen = GetComponent<DamageSource>();
@@ -40,6 +45,7 @@ public class SwordCollisionReaction : MonoBehaviour
         transform.parent = into.transform;
         GetComponent<Rigidbody2D>().simulated = false;
         transform.position += (into.transform.position - transform.position).normalized * pierceDepth;
+        OnPierce?.Invoke();
     }
 
     public void Bounce(Collider2D from)
@@ -51,5 +57,6 @@ public class SwordCollisionReaction : MonoBehaviour
             Vector2 impactForce = (transform.position - from.transform.position).normalized * bounceImpulse;
             body.AddForce(impactForce, ForceMode2D.Impulse);
         }
+        OnBounce?.Invoke();
     }
 }
