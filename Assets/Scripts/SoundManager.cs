@@ -27,6 +27,9 @@ public class SoundManager : MonoBehaviour
     private AudioSource explosion = null;
 
     [SerializeField]
+    private AudioSource explosionLoud = null;
+
+    [SerializeField]
     private AudioSource select = null;
 
     private static SoundManager instance = null;
@@ -74,6 +77,11 @@ public class SoundManager : MonoBehaviour
     public static void Explode()
     {
         instance.explosion.Play();
+    }
+
+    public static void ExplodeLoud()
+    {
+        instance.explosionLoud.Play();
     }
 
     public static void Select()

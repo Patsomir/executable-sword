@@ -206,6 +206,8 @@ MonoBehaviour:
   - symbol: 46
     image: {fileID: -2927084416502050671, guid: 8cf9def7edfec7841b9dfdec17bd72c6,
       type: 3}
+  - symbol: 33
+    image: {fileID: 1798052895285329275, guid: 8cf9def7edfec7841b9dfdec17bd72c6, type: 3}
 --- !u!1 &1836564556888517380
 GameObject:
   m_ObjectHideFlags: 0
