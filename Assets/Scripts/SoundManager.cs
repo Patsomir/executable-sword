@@ -21,6 +21,9 @@ public class SoundManager : MonoBehaviour
     private AudioSource damage = null;
 
     [SerializeField]
+    private AudioSource damageLoud = null;
+
+    [SerializeField]
     private AudioSource explosion = null;
 
     [SerializeField]
@@ -61,6 +64,11 @@ public class SoundManager : MonoBehaviour
     public static void Damage()
     {
         instance.damage.Play();
+    }
+
+    public static void DamageLoud()
+    {
+        instance.damageLoud.Play();
     }
 
     public static void Explode()

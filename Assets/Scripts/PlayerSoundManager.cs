@@ -20,7 +20,15 @@ public class PlayerSoundManager : MonoBehaviour
 
     private void PlayDamageSound(int damage)
     {
-        SoundManager.Damage();
+        if (!health.IsDead())
+        {
+            SoundManager.Damage();
+        }
+    }
+
+    private void PlayDeathSound()
+    {
+        SoundManager.DamageLoud();
     }
 
     private void PlayBurstSound()
@@ -31,6 +39,7 @@ public class PlayerSoundManager : MonoBehaviour
     private void OnEnable()
     {
         controller.OnJumpStart += PlayJumpSound;
+        health.OnDeath += PlayDeathSound;
         health.OnTakeDamage += PlayDamageSound;
         evaporator.OnBurst += PlayBurstSound;
     }
@@ -38,6 +47,7 @@ public class PlayerSoundManager : MonoBehaviour
     private void OnDisable()
     {
         controller.OnJumpStart -= PlayJumpSound;
+        health.OnDeath -= PlayDeathSound;
         health.OnTakeDamage -= PlayDamageSound;
         evaporator.OnBurst -= PlayBurstSound;
     }
