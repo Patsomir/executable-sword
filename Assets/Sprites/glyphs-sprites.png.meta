@@ -513,9 +513,9 @@ TextureImporter:
       name: glyphs-D
       rect:
         serializedVersion: 2
-        x: 802
+        x: 799
         y: 1033
-        width: 104
+        width: 107
         height: 126
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1021,8 +1021,8 @@ TextureImporter:
         y: 744
         width: 71
         height: 125
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1143,9 +1143,9 @@ TextureImporter:
       name: glyphs-S
       rect:
         serializedVersion: 2
-        x: 63
+        x: 61
         y: 555
-        width: 87
+        width: 91
         height: 125
       alignment: 6
       pivot: {x: 0, y: 0}

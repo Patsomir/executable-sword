@@ -196,6 +196,16 @@ MonoBehaviour:
     image: {fileID: 209657601818390234, guid: 8cf9def7edfec7841b9dfdec17bd72c6, type: 3}
   - symbol: 122
     image: {fileID: 4949359335051022572, guid: 8cf9def7edfec7841b9dfdec17bd72c6, type: 3}
+  - symbol: 45
+    image: {fileID: 2667263119387152364, guid: 8cf9def7edfec7841b9dfdec17bd72c6, type: 3}
+  - symbol: 32
+    image: {fileID: 21300000, guid: b7b3aaf0e4f359e44a2c50f30e8ac356, type: 3}
+  - symbol: 58
+    image: {fileID: -5837596192860339988, guid: 8cf9def7edfec7841b9dfdec17bd72c6,
+      type: 3}
+  - symbol: 46
+    image: {fileID: -2927084416502050671, guid: 8cf9def7edfec7841b9dfdec17bd72c6,
+      type: 3}
 --- !u!1 &1836564556888517380
 GameObject:
   m_ObjectHideFlags: 0
